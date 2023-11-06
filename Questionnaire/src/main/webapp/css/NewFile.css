@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/* ページ全体のスタイル */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* ページタイトルのスタイル */
+h1 {
+  color: #333;
+}
+
+/* 確認メッセージのスタイル */
+p {
+  color: #666;
+}
+
+/* 強調テキストのスタイル */
+strong {
+  font-weight: bold;
+}
+
+/* フォームのスタイル */
+form {
+  margin-top: 20px;
+}
+
+/* ボタンのスタイル */
+input[type="submit"], input[type="button"] {
+  padding: 10px 20px;
+  background-color: pink;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover {
+  background-color: #0056b3;
+}
